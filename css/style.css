@@ -1,0 +1,132 @@
+*, p, ul, li, h1, h2, h3, h4, h5{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    color: #111;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .slide img {
+    width: 100%;
+}
+
+header .carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+header a {
+    text-decoration:  none;
+    color:  #111;
+}
+
+header .abs-top {
+    position:  absolute;
+    top: 0;
+    width:  100%;
+}
+
+header .abs-top .top-area {
+    background: linear-gradient(to right, rgba(255,255,255,.95), #e4f3ff);
+}
+
+header .abs-top .top-info a i {
+    font-size: 16px;
+    margin-right:  7px;
+}
+
+header .abs-top .top-info a {
+    margin-right: 20px;
+}
+
+header .abs-top .top-search {
+    text-align:  right;
+}
+
+header .top-info {
+    padding: 10px 0;
+}
+
+header .abs-top input.ipt-search {
+    padding: 10px 16px;
+    min-width: 250px;
+    font-size: 16px;
+    border: none;
+    background:  no-repeat;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    font-style:  italic;
+}
+
+header .abs-top .top-search a img {
+    width: 16px;
+}
+
+header .abs-top a.btn-search {
+    position:  absolute;
+    right: 17px;
+    text-align:  center;
+    padding: 10px;
+}
+
+header .menu-area .main-menu {
+    display:  inline-block;
+}
+
+header .menu-area {
+    background:  #fff;
+    padding:  20px 0;
+    position:  relative;
+}
+
+header .menu-area .main-menu li {
+    display:  inline-block;
+    padding: 15px 10px;
+    float:  left;
+}
+
+header .menu-area .logo-top {
+    display: inline-block;
+    position:  absolute;
+    top: -30px;
+}
+
+.container {
+    position:  relative;
+}
+
+header .menu-area .main-menu a {
+    text-transform:  uppercase;
+    text-decoration:  none;
+}
+
+header .menu-area .main-menu li.li-active {
+    border: 1px solid #da0e00;
+}
+
+header .menu-area .main-menu li.li-active a {color: #da0e00;}
+
+header .menu-area .main-menu li.li-active:after {
+    content: '';
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #da0e00;
+    clear: both;
+}
+
+ol.carousel-indicators {
+    display:  none;
+}
