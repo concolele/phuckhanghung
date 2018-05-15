@@ -182,25 +182,27 @@ header .intro-area p {
     vertical-align: middle;
 }
 
-header .slider-area .prev-left, header .slider-area .prev-right{
+.prev-left, .prev-right{
     position:  absolute;
     display: inline-block;
-    top: 55%;
+    /*top: 55%;*/
     border-radius: 50px;
-    border: 1px solid rgb(200,30,50);
+    border: 1px solid #FF6000;
     width: 40px;
     height: 40px;
     padding: 5px;
     line-height: 25px;
     text-align: center;
-    background:  rgb(200,30,50);
+    background: #FF6000;
 }
 
 header .slider-area .prev-right{
+    top: 55%;
     right: 10%;
 }
 
 header .slider-area .prev-left{
+    top: 55%;
     left: 10%;
 }
 
@@ -227,7 +229,8 @@ header .slider-area .prev-left{
 }
 
 .content .about-us-area {
-    margin: 40px 0;
+    position:  relative;
+    margin: 40px 0 20px 0;
 }
 
 .content .about-us-area h2 {
@@ -245,7 +248,7 @@ header .slider-area .prev-left{
     height:  10px;
     position:  absolute;
     bottom: -10px;
-    border-top: 2px solid #e87805;
+    border-top: 2px solid #DA0E00;
 }
 
 .content .about-us-area > p {
@@ -259,17 +262,17 @@ header .slider-area .prev-left{
     position:  relative;
 }
 
-.content .about-us-area .load-more a {
+.content .load-more a {
     text-transform: lowercase;
     text-decoration:  none;
     color:  #fff;
     display: inline-block;
-    background: #e87805;
+    background: #FF6000;
     border-radius: 5px;
     padding: 5px 20px;
 }
 
-.content .about-us-area .load-more a i {
+.content .load-more a i {
     margin-right:  5px;
     font-size: 14px;
 }
@@ -280,4 +283,270 @@ header .slider-area .prev-left{
 
 .content  .about-us-area .about-content > p:nth-child(2) {
     margin: 10px 0;
+}
+
+.service-area .header-service {
+    text-align:  center;
+    position:  relative;
+}
+
+.service-area .header-service img {
+    /* width:  100%; */
+    /* height:  100%; */
+}
+
+.service-area .header-service h2 {
+    text-transform:  uppercase;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.content .service-area .header-service p {
+    margin-bottom: 40px;
+}
+
+.content .service-area .header-service p:after {
+    content: "";
+    width: 60px;
+    height: 10px;
+    position: absolute;
+    bottom: -20px;
+    border-top: 2px solid #DA0E00;
+    left: 47%;
+}
+
+.content .service-area {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.content .service-area .owl-nav {
+    display:  none;
+}
+
+.content .service-area .owl-theme .owl-dots .owl-dot span {
+    width:  20px;
+    height:  20px;
+    background:  #D1D1D1;
+}
+
+.content .service-area .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #DA0E00;
+}
+
+.content .item .detail-item-more {
+    position:  absolute;
+    bottom:  0;
+    background:  rgba(255, 15, 15, 0.72);
+    padding: 15px 15px 10px 15px;
+    transition: 0.5s;
+    opacity:  0;
+    visibility:  hidden;
+}
+
+.content .item .detail-item {
+    background: rgba(5, 0, 0, 0.42);
+    position:  absolute;
+    display:  inline-block;
+    bottom:  0;
+    width:  100%;
+    padding: 15px;
+}
+
+.content .item .detail-item h4 {
+    color: #fff;
+    text-transform:  uppercase;
+    font-size: 12px;
+}
+
+.content .item:hover .detail-item {
+    display:  none;
+}
+
+.content .item:hover .detail-item-more {
+    line-height: 20px;
+    opacity: 1;
+    visibility:  visible;
+}
+
+.content .item .detail-item-more h4 {
+    text-transform:  uppercase;
+    font-size: 14px;
+    color:  #fff;
+}
+
+.content .item .detail-item-more p {
+    font-size: 13px;
+    color:  #fff;
+    margin:  10px 0;
+}
+
+.content .item .detail-item-more a {
+    text-decoration:  none;
+    color:  #fff;
+    text-transform:  lowercase;
+}
+
+.content .item .detail-item-more a i {
+    margin-right:  5px;
+}
+
+.content .owl-dots {
+    margin-top:  10px;
+}
+
+.content .item .detail-item-more a:hover {
+    color: #000;
+}
+
+.content .hot-area img {
+    width:  100%;
+    height:  170px;
+    max-height:  170px;
+}
+
+.content .hot-area {
+    /* background-color: #FFEFE5; */
+    background-image: url(../img/hot-bg1.png);
+    background-repeat:  no-repeat;
+    background-size: 100%;
+    padding-top: 30px;
+    position:  relative;
+}
+
+.content .hot-area .intro-hot {
+    /* background-image: url(img/hot-bg.png); */
+    /* background-size: 100% 100%; */
+    /* background-repeat: no-repeat; */
+    /* background-position-y: bottom; */
+    position:  relative;
+}
+
+.content .hot-area h2 {
+    text-transform:  uppercase;
+    font-size: 24px;
+    position:  relative;
+    margin-bottom:  30px;
+}
+
+.content .hot-area h2:after {
+    content: "";
+    width: 60px;
+    height: 10px;
+    position: absolute;
+    bottom: -20px;
+    left:  0;
+    border-top: 2px solid #DA0E00;
+}
+
+.content .hot-area .intro-content p {
+    font-size: 12px;
+    font-weight: 500;
+    line-height:  20px;
+}
+
+.content .hot-area .load-more {
+    margin-top:  20px;
+}
+
+.content .hot-area .hot-proj p {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.content .hot-area .hot-proj {
+    margin-bottom: 15px;
+}
+
+.content .hot-area .hot-proj p.proj-name {
+    font-size:  16px;
+    font-weight:  500;
+}
+
+.content .other-area a.prev-left {
+    left: 40%;
+    bottom: -25%;
+}
+
+.content .other-area .cus-slide {
+    text-align:  center;
+    position:  relative;
+}
+
+.content .other-area .customer {
+    position: relative;
+}
+
+.content .other-area a.prev-right {
+    right: 42%;
+    bottom: -25%;
+}
+
+.content .other-area {
+    margin-top: 40px;
+}
+
+.other-area img {
+    width:  100%;
+    height:  100%;
+}
+
+.other-area h2:after {
+    content: "";
+    width: 60px;
+    height: 10px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    border-top: 2px solid #DA0E00;
+}
+
+.other-area .new-info {
+    position: relative;
+}
+
+.other-area h2 {
+    position:  relative;
+    margin-bottom: 30px;
+    text-transform:  uppercase;
+    font-size: 20px;
+}
+
+.other-area p.new-title {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.other-area p.new-date {
+    margin-top: 7px;
+    opacity: .5;
+}
+
+.other-area p {
+    font-size: 14px;
+}
+
+.other-info {
+    border-bottom:  1px solid #ededed;
+    padding: 6px 0;
+}
+
+.other-area .other-info p.new-title {
+    margin:  0;
+}
+
+.other-area .load-more {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+a.prev-left.a-active {
+    border: 1px solid rgb(200,30,50);
+    background:  rgb(200,30,50);
+}
+
+footer {
+    background-image: url(../img/footer-bg2.png);
+    background-size:  100%;
 }
