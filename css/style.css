@@ -549,4 +549,94 @@ a.prev-left.a-active {
 footer {
     background-image: url(../img/footer-bg2.png);
     background-size:  100%;
+    display:  inline-block;
+    width:  100%;
+}
+
+footer .bot-footer {
+    text-align:  center;
+    margin-bottom: 10px;
+}
+
+footer .bot-footer p {
+    color:  #FAA6A0;
+}
+
+footer .info-left h2 {
+    text-transform:  uppercase;
+    color:  #fff;
+    font-size: 21px;
+    margin-bottom:  20px;
+}
+
+footer .top-footer {
+    padding: 40px 0 10px 0;
+}
+
+.content {
+    margin-bottom:  20px;
+}
+
+footer .info-detail p {
+    color:  #FAA6A0;
+    line-height: 27px;
+}
+
+footer .info-detail p span i {
+    margin-right: 7px;
+    width: 20px;
+    height:  10px;
+    text-align:  center;
+    font-size: 14px;
+}
+
+footer .info-detail p span i.fa.fa-fax {
+    font-size:  12px;
+}
+
+footer .info-right {
+    display: inline-block;
+}
+
+footer .info-right li {
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+}
+
+footer .info-right li a {
+    color:  #FAA6A0;
+    text-transform:  uppercase;
+    text-decoration: none;
+}
+
+footer .info-right .li-active a {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 7px;
+    color:  #fff;
+}
+
+footer .info-right li:hover a {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 7px;
+    color: #fff;
+}
+
+footer .contact-info a i {
+    background: #FAA6A0;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    color: #982D25;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+footer .contact-info a i:hover {
+    background: #656565 none repeat scroll 0 0;
+}
+
+.content .load-more a:hover {
+    background: #656565 none repeat scroll 0 0;
 }
